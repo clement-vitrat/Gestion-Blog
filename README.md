@@ -50,7 +50,6 @@ Un utilisateur peut alors :
 > ><img src="img/login.png" alt="Page de connexion"/>
 
 ---
----
 
 > ### **Une fois l'utilisateur connecté :**
 > L'utilisateur peut voir ses différents articles, ajouter de nouveau, en modifier ou se déconnecter.
