@@ -110,7 +110,7 @@ Explication brief de chacun de mes fichiers.
 
 |Nom du fichier| Description |
 |--------------|-------------|
-|``index.php``|<li>**Page principale, page d'Accueil**</li><li>Affichage de tous les articles de tous les utilisateurs</li><li>Dispose de plusieurs liens vers d'autres pages :</li><ul><li>Lien pour s'Inscrire</li><li>Lien pour se Connecter</li></ul>|
+|``index.php``|<ul><li>**Page principale, page d'Accueil**</li><li>Affichage de tous les articles de tous les utilisateurs</li><li>Dispose de plusieurs liens vers d'autres pages :</li><ul><li>Lien pour s'Inscrire</li><li>Lien pour se Connecter</li></ul></ul>|
 |``register_form.php``|<li>**Page pour s'Incrire**</li><li>Dispose de plusieurs liens vers d'autres pages :</li><ul><li>Lien pour se Connecter</li><li>Lien pour retourner sur la page d'Acceuil</li></ul>|
 |``register.php``|<li>Ce fichier est composé de tous les actions nécessaire pour s'inscrire :</li><ul><li>Traite les champs du formulaire</li><li>Récupère les données du formulaire</li><li>Vérifie la conformité de l'adresse mail</li><li>Vérifie que la confirmation du mot de passe soit la même que le mot de passe</li><li>Hache le mot de passe</li><li>Se connecte à la base de données "projetfs"</li><li>Ajoute l'utilisateur dans la base de données</li></ul>|
 |``login_form.php``|<li>**Page pour se Connecter**</li><li>Dispose de plusieurs liens vers d'autres pages :</li><ul><li>Lien pour s'Inscrire</li><li>Lien pour retourner sur la page d'Acceuil</li></ul>|
