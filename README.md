@@ -1,18 +1,31 @@
-# Exercice Gestion de Blog - Clément VITRAT
+# Exercice - Clément VITRAT - B1 Info Tech
+<p>Votre objectif est de réaliser un mini-site de gestion de blog.<br>
+Un utilisateur pourra :</p>
+<ul>
+    <li>s'enregistrer</li>
+    <li>se connecter</li>
+    <li>ajouter un article (en étant connecté)</li>
+    <li>modifier un article (en étant connecté)</li>
+    <li>visualiser sa liste d'article (en étant connecté)</li>
+    <li>se déconnecter</li>
+    <li>si non connecté, il est possible de voir la liste de tous les articles, avec le nom de leur auteurs.</li>
+</ul>
+<p>Les articles contiennent :</p>
+<ul>
+    <li>un titre</li>
+    <li>le corps de l'article</li>
+    <li>la date de création</li>
+    <li>la date de modification</li>
+</ul>
+<p>Si un utilisateur non connecté essaye d'accéder à une page nécessitant d'être connecté, une redirection vers la page de connexion sera effectuée.</p>
+<h2 id="consignes-">Consignes :</h2>
+<ul>
+    <li>vous enverrez par mail un lien github/gitlab public, contenant l'ensemble de vos fichiers</li>
+    <li>Le présent fichier sera à la racine de votre git, nommé <a href="http://README.html">README.md</a>. Vous y décrirez les fonctionnalités réalisées.</li>
+    <li>La date de rendu est le 24/05/2022.</li>
+</ul>
 
-## Objectif de l'exercice :
-L'objectif était de réaliser un mini-site de gestion de blog.
-Un utilisateur peut alors :
-    <ul>
-        <li>S'enregistrer</li>
-        <li>Se connecter</li>
-        <li>Ajouter un article (en étant connecté)</li>
-        <li>Modifier un article (en étant connecté)</li>
-        <li>Visualiser sa liste d'article (en étant connecté)</li>
-        <li>Se déconnecter</li>
-        <li>S'il n'est pas connecté, il est possible de voir la liste de tous les articles, avec le nom de leurs articles</li>
-    </ul>
-
+-------------------------
 -------------------------
 -------------------------
 
@@ -50,6 +63,7 @@ Un utilisateur peut alors :
 > ><img src="img/login.png" alt="Page de connexion"/>
 
 ---
+
 
 > ### **Une fois l'utilisateur connecté :**
 > L'utilisateur peut voir ses différents articles, ajouter de nouveau, en modifier ou se déconnecter.
